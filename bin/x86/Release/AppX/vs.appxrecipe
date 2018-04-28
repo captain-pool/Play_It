@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ADRISH-PC</Machine>
+    <WindowsUser>Adrish</WindowsUser>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <RegisteredManifestChecksum>B25EA038AF9A07B05D8A5E9ACD4E1FAA533C84A036363E6167FAF349C06F3288</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>PlayItrcb986784-9458-4929-ab1c-95005c55ac64_2.3.2.25_x86__wg2trqp0r8ds0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>PlayItrcb986784-9458-4929-ab1c-95005c55ac64_wg2trqp0r8ds0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>PlayItrcb986784-9458-4929-ab1c-95005c55ac64</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Adrish</RegisteredPackagePublisher>
+    <RegisteredVersion>2.3.2.25</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Media_Center\Media_Center\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-04T08:08:27.227</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\Media_Center.exe">
+      <PackagePath>Media_Center.exe</PackagePath>
+      <Modified>2016-11-04T08:08:26.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\Media_Center.pdb">
+      <PackagePath>Media_Center.pdb</PackagePath>
+      <Modified>2016-11-04T08:08:26.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\1_413_0.jpg">
+      <PackagePath>Assets\1_413_0.jpg</PackagePath>
+      <Modified>2009-01-02T11:31:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\back.jpg">
+      <PackagePath>Assets\back.jpg</PackagePath>
+      <Modified>2016-10-29T09:16:51.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Lost_by_MichaelFaber.jpg">
+      <PackagePath>Assets\Lost_by_MichaelFaber.jpg</PackagePath>
+      <Modified>2016-07-25T08:27:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\video.jpg">
+      <PackagePath>Assets\video.jpg</PackagePath>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\9238_digital_art_6_5.jpeg">
+      <PackagePath>Assets\9238_digital_art_6_5.jpeg</PackagePath>
+      <Modified>2016-10-19T20:05:17.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Music_2.png">
+      <PackagePath>Assets\Music_2.png</PackagePath>
+      <Modified>2016-10-28T18:55:17.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\backfrontactive.png">
+      <PackagePath>Assets\backfrontactive.png</PackagePath>
+      <Modified>2016-07-14T06:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Copy of StoreLogo.png">
+      <PackagePath>Assets\Copy of StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T06:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\fileLogo-16.png">
+      <PackagePath>Assets\fileLogo-16.png</PackagePath>
+      <Modified>2016-07-14T06:23:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\fileLogomusic-256.png">
+      <PackagePath>Assets\fileLogomusic-256.png</PackagePath>
+      <Modified>2016-07-14T06:23:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\music.png">
+      <PackagePath>Assets\music.png</PackagePath>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Video_2.png">
+      <PackagePath>Assets\Video_2.png</PackagePath>
+      <Modified>2016-10-28T19:10:10.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Playing.png">
+      <PackagePath>Assets\Playing.png</PackagePath>
+      <Modified>2016-10-06T06:30:29.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\widetilelogo.png">
+      <PackagePath>Assets\widetilelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T06:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\none.cur">
+      <PackagePath>Assets\none.cur</PackagePath>
+      <Modified>2016-11-13T17:49:38.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2016-11-10T11:12:48.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\BlankPage1.xaml">
+      <PackagePath>BlankPage1.xaml</PackagePath>
+      <Modified>2016-11-03T11:02:45.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\BlankPage2.xaml">
+      <PackagePath>BlankPage2.xaml</PackagePath>
+      <Modified>2016-11-02T18:45:56.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\Common\StandardStyles2.xaml">
+      <PackagePath>Common\StandardStyles2.xaml</PackagePath>
+      <Modified>2016-07-14T06:40:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2016-10-29T10:46:08.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2016-11-03T11:04:53.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\snappedmainpage.xaml">
+      <PackagePath>snappedmainpage.xaml</PackagePath>
+      <Modified>2016-11-10T11:12:48.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-04T08:08:27.069</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

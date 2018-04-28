@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="PlayItrcb986784-9458-4929-ab1c-95005c55ac64" Publisher="CN=Adrish" Version="2.3.2.25" />
+  <Properties>
+    <DisplayName>PlayIt</DisplayName>
+    <PublisherDisplayName>Adrish</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Media_Centre.App">
+      <VisualElements DisplayName="PlayIt" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="The All In One Media Player" ForegroundText="light" BackgroundColor="#086FEA" ToastCapable="true">
+        <LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\Copy of StoreLogo.png" />
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\widetilelogo.png" ShortName="PlayIt" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#086FEA" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="BlankPage1.xaml">
+          <BackgroundTasks>
+            <Task Type="audio" />
+            <Task Type="pushNotification" />
+            <Task Type="timer" />
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.fileTypeAssociation" EntryPoint="MediaCenter.App">
+          <FileTypeAssociation Name="mediacentermusic">
+            <DisplayName>Media Center</DisplayName>
+            <Logo>Assets\music.png</Logo>
+            <InfoTip>Media Center Music File(s)</InfoTip>
+            <SupportedFileTypes>
+              <FileType ContentType="audio/mpeg">.mp3</FileType>
+              <FileType>.wma</FileType>
+              <FileType>.zpl</FileType>
+              <FileType ContentType="audio/wav">.wav</FileType>
+              <FileType>.m3u</FileType>
+              <FileType>.wpl</FileType>
+              <FileType>.aac</FileType>
+              <FileType>.adt</FileType>
+              <FileType>.adts</FileType>
+              <FileType>.m4a</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+        <Extension Category="windows.fileTypeAssociation" EntryPoint="MediaCenter.App">
+          <FileTypeAssociation Name="mediacentervideo">
+            <DisplayName>Media Center</DisplayName>
+            <Logo>Assets\video.jpg</Logo>
+            <InfoTip>Media Center Video File(s)</InfoTip>
+            <SupportedFileTypes>
+              <FileType>.mp4</FileType>
+              <FileType>.wmv</FileType>
+              <FileType>.avi</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="musicLibrary" />
+    <Capability Name="videosLibrary" />
+  </Capabilities>
+</Package>

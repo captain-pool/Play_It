@@ -1,0 +1,218 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="MediaCenter.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaCenter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="page"
+                            >
+
+    <Grid x:Name="MainGrid" RenderTransformOrigin="0.5,0.5">
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:/Assets/9238_digital_art_6_5.jpeg">
+            </ImageBrush>
+        </Grid.Background>
+        <Grid.Transitions>
+            <TransitionCollection>
+                <PaneThemeTransition/>
+            </TransitionCollection>
+        </Grid.Transitions>
+        <Image x:Name="thumbnail" Opacity="0.8" Margin="0,0,370,330" Source="" Stretch="Fill"/>
+
+        <Grid Margin="0,0,360,330" x:Name="thumbgrid" Visibility="Collapsed">
+        </Grid>
+        <MediaElement x:ConnectionId='2' x:Name="media" Source="" AudioCategory="BackgroundCapableMedia" Volume="0.5"                                                                                                    />
+        <StackPanel Orientation="Horizontal">
+            <Grid x:ConnectionId='6' x:Name="Details" Width="1000"                                         >
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                        <GradientStop Color="#B2000000" Offset="1"/>
+                        <GradientStop Color="#7F808080" Offset="0.37"/>
+                        <GradientStop Color="Transparent" Offset="0.024"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Grid.Transitions>
+                    <TransitionCollection>
+                        <PaneThemeTransition/>
+                    </TransitionCollection>
+                </Grid.Transitions>
+                <TextBlock x:Name="tblock" Text="{Binding SongName}" Margin="17,158,15,551" FontSize="50" TextTrimming="CharacterEllipsis" />
+                <TextBlock x:Name="album" Text="{Binding AlbumName}" Margin="17,227,15,489" FontSize="40" TextTrimming="CharacterEllipsis" />
+                <TextBlock x:Name="artist" Text="{Binding ArtistName}" Margin="17,300,15,433" FontSize="30" TextTrimming="CharacterEllipsis"/>
+                <TextBlock x:Name="albumartist" Margin="17,335,15,398"  FontSize="20" TextTrimming="CharacterEllipsis"/>
+                <TextBlock Margin="126,60,444,610" FontFamily="Segoe Script" FontSize="60" Text="Music Player" FontStyle="Italic" />
+                <TextBlock Text="Volume" FontSize="35" Margin="18,421,1205,311" />
+                <Button x:ConnectionId='9' x:Name="navigateback" Style="{StaticResource AppBarButtonStyle}" Content="&#xE112;" Margin="0,60,0,640" Width="80"                              ToolTipService.ToolTip="Go Back To Main Page"/>
+                <Button x:ConnectionId='10' x:Name="MuteUnMute" Style="{StaticResource AppBarButtonStyle}"                            Margin="25,611,0,87" Content="" Width="97"/>
+                <Slider x:ConnectionId='11' x:Name="seek" ThumbToolTipValueConverter="{StaticResource TooltipConverter}" Margin="195,570,16,162" IsEnabled="False"                                                                                                                                                             IsThumbToolTipEnabled="True" Foreground="#BF7E7E7E" Background="#66FFFFFF"/>
+                <TextBlock x:Name="endposition" Text="" Margin="841,609,2,108" FontSize="40" Foreground="#FFB7BFC7"/>
+                <TextBlock x:Name="currentposition" Text="" Margin="168,604,670,110" FontSize="40" Foreground="#FFB7BFC7"/>
+                <Slider x:ConnectionId='12' x:Name="slider"  Orientation="Vertical" Margin="50,460,886,162" StepFrequency="1" Maximum="100" Minimum="0"                                      Foreground="#FF646464" Background="#29818181"/>
+                <Grid Background="#99A2A2A2" Margin="350,630,244,65">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:ConnectionId='17' x:Name="backward"  Style="{StaticResource AppBarButtonStyle}" Grid.Column="0" Content="&#xE100;"                          Width="74" Margin="5,0,0,9"/>
+                    <Button x:ConnectionId='18' x:Name="PlayPauseButton" FontSize="25"                                  Grid.Column="1" Content="&#xE102;" Style="{StaticResource AppBarButtonStyle}" Width="79" IsEnabled="False"/>
+                    <Button x:ConnectionId='19' x:Name="stop" Width="79"                       FontSize="25" Content="&#xe15b;" Grid.Column="2" Padding="1000,1000,1000,1000" Style="{StaticResource AppBarButtonStyle}" IsEnabled="False"/>
+                    <Button x:ConnectionId='20' x:Name="forward" Style="{StaticResource AppBarButtonStyle}"  Content="&#xE101;" Grid.Column="3"                         Width="79"/>
+                </Grid>
+                <Border x:ConnectionId='13' x:Name="InfoPage" CornerRadius="4" BorderBrush="#FFD8D8D8" BorderThickness="5" HorizontalAlignment="Left" Height="399" Margin="239,216,0,0" VerticalAlignment="Top" Width="759" Background="#B2101C29"                                                                                      Visibility="Collapsed">
+                    <Grid>
+                    <Grid x:Name="Music_Info" Visibility="Collapsed">
+                        <Image x:Name="albumart" Source="" Margin="0" Stretch="Fill"/>
+                        <Grid Background="#4CB2B2B2">
+                        </Grid>
+                        <Button x:ConnectionId='16' x:Name="delete" Content="&#xE108;" ToolTipService.ToolTip="delete This Music From Playlist" AutomationProperties.Name="Remove From Playlist" Style="{StaticResource AppBarButtonStyle}" Width="113" Margin="11,290,0,-4"                        Height="103" VerticalAlignment="Top"/>
+                        <TextBlock Text="Music Info." FontSize="60" Margin="47,41,298,289"/>
+                        <Border Margin="200,160,5,0" BorderThickness="2" CornerRadius="3" BorderBrush="#FFD8D8D8">
+                            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                                <Grid Margin="10,10,10,0" x:Name="Music_Info_">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Grid.Row="0" Text="{Binding SongName}"  FontSize="40" TextTrimming="WordEllipsis" />
+                                    <TextBlock Text="{Binding AlbumName}" FontSize="35" Grid.Row="1" TextTrimming="WordEllipsis"/>
+                                    <TextBlock Text="{Binding Duration}" Grid.Row="3" FontSize="25"  TextTrimming="WordEllipsis"/>
+                                    <TextBlock Text="{Binding Genre}" Grid.Row="4" FontSize="25"  TextTrimming="WordEllipsis"/>
+                                    <TextBlock Text="{Binding Year}" Grid.Row="5" FontSize="25" TextTrimming="WordEllipsis"/>
+                                    <TextBlock Text="{Binding ArtistName}" Grid.Row="2" FontSize="30"  TextTrimming="WordEllipsis"/>
+                                </Grid>
+                            </ScrollViewer>
+                        </Border>
+                    </Grid>
+                        <Grid x:Name="PlaylistInfo">
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0" MinHeight="200" MaxHeight="400">
+                                <StackPanel Orientation="Vertical" MinHeight="200" MaxHeight="400">
+                                    <Border BorderThickness="4" BorderBrush="#9904355B" Margin="10">
+                                <Image Source="ms-appx:/Assets/Music.png" Height="270"  Width="280"/>
+                                </Border>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <Button x:ConnectionId='14' Style="{StaticResource AppBarButtonStyle}" AutomationProperties.Name="Delete Playlist" Margin="0,0,5,0"                        Content="" />
+                                        <Button x:ConnectionId='15' Style="{StaticResource AppBarButtonStyle}" AutomationProperties.Name="Rename Playlist" Margin="5,0,0,0"                        Content="✎"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <StackPanel Orientation="Vertical">
+                                    <StackPanel Orientation="Vertical">
+                                        <TextBlock Text="Playlist Info." Foreground="White" FontSize="50" FontWeight="SemiBold" FontStyle="Oblique" FontFamily="Segoe Print"/>
+                                            <ScrollViewer HorizontalScrollBarVisibility="Auto" Width="430" VerticalAlignment="Center">
+                                            <StackPanel x:Name="Playlist_info_s" Orientation="Vertical" Margin="40,0,0,0">
+                                                <TextBlock  Height="50" FontSize="40" FontStyle="Italic" Text="{Binding FileName}" Margin="10"/>
+                                                <TextBlock  Height="50" FontSize="20" FontStyle="Italic" Text="{Binding FilePath}" Margin="10"/>
+                                                <TextBlock Height="50" FontSize="40" FontStyle="Italic" Text="{Binding TimeLength}" Margin="10" Visibility="Collapsed"/>
+                                                <TextBlock  Height="50" FontSize="40" FontStyle="Italic" Text="{Binding No_Files}" Margin="10"/>
+                                        </StackPanel>
+                                        </ScrollViewer>
+                                        </StackPanel>
+                                    
+                                </StackPanel>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </Grid>
+            <Grid Width="366">
+                <Grid.Background>
+                    <LinearGradientBrush x:Name="lgbrush2" StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop x:Name="grid2background1" Color="#CC000000"/>
+                        <GradientStop x:Name="grid2background2" Color="Black" Offset="1"/>
+                        <GradientStop Color="Transparent" Offset="0.466"/>
+                        <GradientStop Color="#CC060606" Offset="0.987"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <StackPanel Orientation="Vertical" Width="366" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="grid2textbox" FontSize="25" Text="Loaded Music Files" FontStyle="Italic"/>
+                        <TextBlock x:Name="No_f" FontSize="15" Padding="0,10,0,0" Foreground="#FF92CAF4" FontWeight="Bold" FontFamily="Segoe Print"/>
+                        
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <Button x:ConnectionId='8' x:Name="back" Style="{StaticResource AppBarButtonStyle}" Width="80" Content="&#xE112;"                      Height="70" Visibility="Collapsed"/>
+                        <Border x:Name="LoadingBorder" CornerRadius="10" Height="60" Width="290" Visibility="Visible" RenderTransformOrigin="0.5,0.5">
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" SpreadMethod="Reflect" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF1D1D1D" Offset="1"/>
+                                    <GradientStop Color="#FF1A81C9"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <StackPanel Width="290" Orientation="Horizontal" HorizontalAlignment="Left">
+                                <ProgressRing IsActive="True" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="6"/>
+                                <TextBlock x:Name="LoadingText" FontFamily="Viner Hand ITC" Text="Loading File(s)" Padding="10" Width="240" FontSize="24"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                    <ListView x:ConnectionId='7' x:Name="lv" CanReorderItems="False" CanDragItems="False" SelectionMode="Single"                                    IsItemClickEnabled="True" MaxHeight="660"                             Margin="0,60,0,0"                                          ScrollViewer.VerticalScrollBarVisibility="Auto">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel   ToolTipService.ToolTip="{Binding DisplayName}" Orientation="Horizontal">
+                                    <Image Source="Assets/Playing.png" MaxHeight="30" MaxWidth="30" Visibility="{Binding isPlayingIcon}"/>
+                                    <TextBlock Foreground="White" HorizontalAlignment="Right" Text="{Binding DisplayName}" FontSize="15" TextTrimming="CharacterEllipsis"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    <Grid x:Name="emptynote" Margin="0,200,0,0" Background="#B22E2E2E" Visibility="Collapsed">
+                        <TextBlock x:Name="empty_text" Text="Oops, No Item's available to show!" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" Height="50" VerticalAlignment="Center" Width="365" FontSize="20"  FontFamily="segoe Print">
+                        </TextBlock>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    
+    <Grid x:ConnectionId='3' x:Name="playlistgrid" Background="Transparent"                                          Visibility="Collapsed">
+            <Border BorderBrush="Black" BorderThickness="3" HorizontalAlignment="Left" Height="232" Margin="319,257,0,0" VerticalAlignment="Top" Width="627">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Repeat">
+                        <GradientStop Color="#FF4B4B4B"/>
+                        <GradientStop Color="#FF569CD6" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Grid>
+                    <TextBlock x:Name="Play_text" Margin="29,29,300,142" FontSize="40" />
+                    <TextBox x:Name="playlistname" Margin="32,80,244,110"/>
+                    <Button x:ConnectionId='4' Margin="26,128,0,12"                      Style="{StaticResource AppBarButtonStyle}"  Content="&#xE105;" Width="79" AutomationProperties.Name="Save"/>
+                    <Button x:ConnectionId='5'                        Style="{StaticResource AppBarButtonStyle}" Margin="131,128,0,10" Width="76"  Content="&#xE10A;" AutomationProperties.Name="Close"/>
+                </Grid>
+            </Border>
+        </Grid>
+        <Grid x:Name="snapped" Background="WhiteSmoke" Visibility="Collapsed">
+
+        </Grid>
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar x:Name="appbar" Margin="0,690,0,-12">
+
+            <AppBar.Transitions>
+                <TransitionCollection>
+                    <ContentThemeTransition/>
+                </TransitionCollection>
+            </AppBar.Transitions>
+            <AppBar.Background>
+                <LinearGradientBrush StartPoint="0.3,1" EndPoint="1,0.0">
+                    <GradientStop Color="#B21F1F1F"/>
+                </LinearGradientBrush>
+            </AppBar.Background>
+            <Grid Margin="0,0,0,0" Background="Transparent">
+                <Button x:ConnectionId='21' Content="&#xE1A5;"                         Style="{StaticResource AppBarButtonStyle}"  FontSize="20" Margin="1200,0,0,0" AutomationProperties.Name="Open" Width="101" ToolTipService.ToolTip="Open Music Files"/>
+                <ToggleSwitch x:ConnectionId='22' x:Name="toggleswitch"  Margin="728,16,0,15" Header="On/Off Album Art View" IsOn="True"                                 />
+                <Button x:ConnectionId='23' x:Name="createplaylist"  Content="&#xE105;" AutomationProperties.Name="Create Playlist" ToolTipService.ToolTip="Create Playlist From The Selected Music(s)"                                Style="{StaticResource AppBarButtonStyle}" Margin="1050,0,0,0" IsEnabled="False"/>
+                <Button x:ConnectionId='24' x:Name="Openplaylist"  Style="{StaticResource AppBarButtonStyle}" Content="&#xE118;" Margin="900,0,0,0" AutomationProperties.Name="Open Playlist"                              ToolTipService.ToolTip="Open Playlist"/>
+                <Button x:ConnectionId='25' x:Name="random"  Style="{StaticResource AppBarButtonStyle}" Margin="588,0,0,1" Width="102" AutomationProperties.Name="Shuffle"                        Content="&#xE14B;"/>
+                <Button x:ConnectionId='26' x:Name="Add" Margin="500,0,500,0" Style="{StaticResource AppBarButtonStyle}" AutomationProperties.Name="Add Music" ToolTipService.ToolTip="Add Music To Playlist"                     Content="&#xE109;" Visibility="Visible"/>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+
+</Page>
+

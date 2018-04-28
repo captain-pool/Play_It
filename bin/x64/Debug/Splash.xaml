@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="App7.Splash"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App7"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="CornflowerBlue">
+        <Image x:Name="image" Source=""/>
+        <StackPanel Orientation="Horizontal"  Margin="450,592,0,10">
+            <ProgressRing IsActive="True" Foreground="White" Height="92" Margin="0,69,0,5" Width="152"/>
+            <TextBlock x:Name="tblock" Text="Loading File(s)..." FontSize="50" TextTrimming="WordEllipsis"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Media_Center.BlankPage_M"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MediaCenter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFF4F4F5">
+
+        <Rectangle Fill="{StaticResource ApplicationPageBackgroundThemeBrush}" HorizontalAlignment="Left" Height="768" Margin="0,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="372"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,34,0,0" TextWrapping="Wrap" Text="Music Player" VerticalAlignment="Top" Height="49" Width="235" FontSize="40"/>
+        <Button Content="&#xE112;" HorizontalAlignment="Left" Height="63" Margin="7,24,0,0" VerticalAlignment="Top" Width="76" Style="{StaticResource AppBarButtonStyle}" Click="Button_Click_1"/>
+        <TextBox x:Name="SearchBox" HorizontalAlignment="Left" Height="35" Margin="21,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="270"/>
+        <Button x:Name="Search" Content="&#xE11a;" FontFamily="Segoe UI Symbol" HorizontalAlignment="Left" Height="41" Margin="297,105,0,0" VerticalAlignment="Top" Width="55" BorderThickness="0" Background="CadetBlue"/>
+        <ListView x:Name="PlaylistBox" Drop="PlaylistBox_Drop_1" Margin="0,219,995,431" ItemClick="PlaylistBox_ItemClick_1" IsItemClickEnabled="True">
+            <ListViewItem Content="My Collection" Padding="10" FontSize="20" Background="CornflowerBlue" Margin="0"/>
+            <ListViewItem Content="Create Playlist" Padding="10" FontSize="20" Background="CornflowerBlue" Margin="0"/>
+        </ListView>
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="8,371,0,0" TextWrapping="Wrap" Text="Playlists" FontSize="30" VerticalAlignment="Top" Width="171"/>
+        <ListView x:Name="playlist" Margin="0,414,997,0" ItemClick="playlist_ItemClick_1" IsItemClickEnabled="True"/>
+        <Frame x:Name="GridFrame"  HorizontalAlignment="Left" Height="561" Margin="372,123,0,0" VerticalAlignment="Top" Width="993">
+        </Frame>
+    </Grid>
+</Page>

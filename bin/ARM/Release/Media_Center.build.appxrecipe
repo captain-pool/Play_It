@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ADRISH-PC</Machine>
+    <WindowsUser>Adrish</WindowsUser>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Media_Center\Media_Center\bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\Media_Center.exe">
+      <PackagePath>Media_Center.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\Media_Center.pdb">
+      <PackagePath>Media_Center.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\1_413_0.jpg">
+      <PackagePath>Assets\1_413_0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\back.jpg">
+      <PackagePath>Assets\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Lost_by_MichaelFaber.jpg">
+      <PackagePath>Assets\Lost_by_MichaelFaber.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\video.jpg">
+      <PackagePath>Assets\video.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\9238_digital_art_6_5.jpeg">
+      <PackagePath>Assets\9238_digital_art_6_5.jpeg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Music_2.png">
+      <PackagePath>Assets\Music_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\backfrontactive.png">
+      <PackagePath>Assets\backfrontactive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Copy of StoreLogo.png">
+      <PackagePath>Assets\Copy of StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\fileLogo-16.png">
+      <PackagePath>Assets\fileLogo-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\fileLogomusic-256.png">
+      <PackagePath>Assets\fileLogomusic-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\music.png">
+      <PackagePath>Assets\music.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Video_2.png">
+      <PackagePath>Assets\Video_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\Playing.png">
+      <PackagePath>Assets\Playing.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\widetilelogo.png">
+      <PackagePath>Assets\widetilelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\Assets\none.cur">
+      <PackagePath>Assets\none.cur</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\BlankPage1.xaml">
+      <PackagePath>BlankPage1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\BlankPage2.xaml">
+      <PackagePath>BlankPage2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\Common\StandardStyles2.xaml">
+      <PackagePath>Common\StandardStyles2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\snappedmainpage.xaml">
+      <PackagePath>snappedmainpage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Media_Center\Media_Center\bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

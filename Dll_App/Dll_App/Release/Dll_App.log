@@ -1,0 +1,27 @@
+﻿Build started 16-11-2016 6.52.05 PM.
+     1>Project "F:\Media_Center\Media_Center\Dll_App\Dll_App\Dll_App.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IF:\Media_Center\Media_Center\Dll_App\Dll_App\ /I"Generated Files\\" /IRelease\ /Zi /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _WINDLL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Release\Dll_App.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IF:\Media_Center\Media_Center\Dll_App\Dll_App\ /I"Generated Files\\" /IRelease\ /Zi /nologo /W3 /WX- /sdl /MP /O2 /Oi /Oy- /GL /D _WINDLL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Release\Dll_App.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp Dll_App.cpp
+         dllmain.cpp
+         Dll_App.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\CursorResource.res" CursorResource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Media_Center\Release\Dll_App\Dll_App.dll" /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"F:\Media_Center\Release\Dll_App\Dll_App.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"F:\Media_Center\Release\Dll_App\Dll_App.winmd" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Media_Center\Release\Dll_App\Dll_App.lib" /MACHINE:X86 /SAFESEH /DLL Release\CursorResource.res
+         Release\dllmain.obj
+         Release\Dll_App.obj
+         Release\pch.obj
+         Generating code
+         Finished generating code
+         Dll_App.vcxproj -> F:\Media_Center\Release\Dll_App\Dll_App.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"F:\Media_Center\Release\Dll_App\Dll_App.bsc" /n Release\dllmain.sbr Release\Dll_App.sbr Release\pch.sbr
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot F:\Media_Center\Media_Center\Dll_App\Dll_App\ -ConfigXml Release\priconfig.xml -OutputFile F:\Media_Center\Release\Dll_App\Dll_App.pri -IndexName Dll_App -Verbose -Overwrite  
+     1>Done Building Project "F:\Media_Center\Media_Center\Dll_App\Dll_App\Dll_App.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.56

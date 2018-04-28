@@ -1,0 +1,88 @@
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\bin\ARM\Release\Media_Center.exe
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\bin\ARM\Release\Media_Center.pdb
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\bin\ARM\Release\resources.pri
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\bin\ARM\Release\AppxManifest.xml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\bin\ARM\Release\Media_Center.build.appxrecipe
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\App.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\App.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1_M.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1_M.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1_S1.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1_S1.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage2.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage2.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles2.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles2.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\MainPage.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\MainPage.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\snappedmainpage.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\snappedmainpage.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Splash.g.i.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Splash.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\XamlTypeInfo.g.cs
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\App.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1_M.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage1_S1.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\BlankPage2.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles2.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\MainPage.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\snappedmainpage.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Splash.xaml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Media_Center.exe
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\Media_Center.pdb
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\priconfig.xml
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\layout.resfiles
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\resources.resfiles
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\pri.resfiles
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\LanguageQualifiers.txt
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\ProjectArchitectures.txt
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\priconfig.xml.intermediate
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\layout.resfiles.intermediate
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\resources.resfiles.intermediate
+C:\Users\Adrish\Documents\Visual Studio 2012\Projects\Media_Center\Media_Center\obj\ARM\Release\pri.resfiles.intermediate
+F:\Media_Center\Media_Center\bin\ARM\Release\Media_Center.exe
+F:\Media_Center\Media_Center\bin\ARM\Release\Media_Center.pdb
+F:\Media_Center\Media_Center\bin\ARM\Release\resources.pri
+F:\Media_Center\Media_Center\bin\ARM\Release\AppxManifest.xml
+F:\Media_Center\Media_Center\bin\ARM\Release\Media_Center.build.appxrecipe
+F:\Media_Center\Media_Center\obj\ARM\Release\Media_Center.csprojResolveAssemblyReference.cache
+F:\Media_Center\Media_Center\obj\ARM\Release\App.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\App.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\BlankPage1.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\BlankPage1.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\BlankPage2.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\BlankPage2.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles2.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles2.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\MainPage.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\MainPage.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\snappedmainpage.g.i.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\snappedmainpage.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\XamlTypeInfo.g.cs
+F:\Media_Center\Media_Center\obj\ARM\Release\App.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\BlankPage1.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\BlankPage2.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles2.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\Common\StandardStyles.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\MainPage.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\snappedmainpage.xaml
+F:\Media_Center\Media_Center\obj\ARM\Release\Media_Center.exe
+F:\Media_Center\Media_Center\obj\ARM\Release\Media_Center.pdb
+F:\Media_Center\Media_Center\obj\ARM\Release\priconfig.xml.intermediate
+F:\Media_Center\Media_Center\obj\ARM\Release\layout.resfiles.intermediate
+F:\Media_Center\Media_Center\obj\ARM\Release\resources.resfiles.intermediate
+F:\Media_Center\Media_Center\obj\ARM\Release\pri.resfiles.intermediate
+F:\Media_Center\Media_Center\obj\ARM\Release\priconfig.xml
+F:\Media_Center\Media_Center\obj\ARM\Release\layout.resfiles
+F:\Media_Center\Media_Center\obj\ARM\Release\resources.resfiles
+F:\Media_Center\Media_Center\obj\ARM\Release\pri.resfiles
+F:\Media_Center\Media_Center\obj\ARM\Release\LanguageQualifiers.txt
+F:\Media_Center\Media_Center\obj\ARM\Release\ProjectArchitectures.txt
